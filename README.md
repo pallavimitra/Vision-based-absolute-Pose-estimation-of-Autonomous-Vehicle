@@ -17,5 +17,9 @@ Below is the architecture description for the same.(<-- two spaces)
 - 3d coordinates(x’,y’,z’): Train a model to regress with the bounding boxes as features and (x,y,z) as labels.
 - Yaw/Pitch/Roll - 
   - Assumptions: Roll and pitch ~ 0 (can be checked from distributions).
+  - yaw  (θg) = local angle (θl) + rayangle (θray) (calculated using camera matrix K)
+  - Regress θl in two steps
+    - Classification:  8 spaced bins. Which bin?
+    - Regression: Angle
 
 
