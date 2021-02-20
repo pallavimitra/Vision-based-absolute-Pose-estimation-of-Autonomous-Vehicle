@@ -4,5 +4,5 @@ Accurate localization for any autonomous vehicle (AV), especially in indoor and 
 
 ![alt text](images/motion_yaw_pitch_roll.jpg)
 <p align="center">
-  <img src="http://some_place.com/image.png" />
+  <img src="images/motion_yaw_pitch_roll.jpg" />
 </p>
