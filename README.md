@@ -6,6 +6,8 @@ Accurate localization for any autonomous vehicle (AV), especially in indoor and 
 </p>
 A two-staged 6DoF object detection pipeline is proposed in this work. Firstly, YOLO object detector is applied to provide object bounding boxes. Then two regressor is applied to estimate the 3d properties and euler angles.
 Below is the architecture description for the same.
+
+
 <p align="center">
   <img src="images/diagram2.png" />
 </p>
