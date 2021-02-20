@@ -5,7 +5,7 @@ Accurate localization for any autonomous vehicle (AV), especially in indoor and 
   <img src="images/motion_yaw_pitch_roll.jpg" />
 </p>
 
-## Solution:
+## Solution
 
 A two-staged 6DoF object detection pipeline is proposed in this work. Firstly, YOLO object detector is applied to provide object bounding boxes. Then two regressor is applied to estimate the 3d properties and euler angles.
 Below is the architecture description for the same.(<-- two spaces)
@@ -28,3 +28,7 @@ Below is the architecture description for the same.(<-- two spaces)
   - Project result on 2D (image) using K.
 
 
+## Install dependencies
+```
+pip install -r requirements.txt
+```
