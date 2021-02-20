@@ -11,3 +11,11 @@ Below is the architecture description for the same.(<-- two spaces)
 <p align="center">
   <img src="images/diagram2.png" />
 </p>
+
+## Solution:
+[] Car detection: Identify cars on each image with YOLOV3 and obtain the bouding boxes.
+[] 3d coordinates(x’,y’,z’): Train a model to regress with the bounding boxes as features and (x,y,z) as labels.
+[] Yaw/Pitch/Roll - 
+     Assumptions: Roll and pitch ~ 0 (can be checked from distributions).
+
+
