@@ -8,7 +8,7 @@ Accurate localization for any autonomous vehicle (AV), especially in indoor and 
 ## Solution
 
 A two-staged 6DoF object detection pipeline is proposed in this work. Firstly, YOLO object detector is applied to provide object bounding boxes. Then two regressor is applied to estimate the 3d properties and euler angles.
-Below is the architecture description for the same.(<-- two spaces)
+Below is the architecture description for the same.
 
 
 <p align="center">
@@ -32,3 +32,19 @@ Below is the architecture description for the same.(<-- two spaces)
 ```
 pip install -r requirements.txt
 ```
+
+## Dataset
+The dataset can be accesible from the Kaggle Challenge - https://www.kaggle.com/c/pku-autonomous-driving/data 
+
+## Usage
+- Download yolov3 model for car detection and save path(trained_models).
+- Train Yaw Prediction Model from script car-yaw-prediction.ipynb and save the model in trained_models folder.
+- Use pos_predictor.joblib (in trained_models folder) to predict the 3D co-ordinates. 
+- Run Car Position Estimation - Full pipeline.ipynb providing proper path.
+
+## Test Result
+The estimated pose of the detected cars are as follows:
+
+<p align="center">
+  <img src="images/download.png" />
+</p>
