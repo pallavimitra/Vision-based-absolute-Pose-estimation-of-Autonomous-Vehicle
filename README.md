@@ -39,7 +39,7 @@ The dataset can be accesible from the Kaggle Challenge - https://www.kaggle.com/
 ## Usage
 - Download yolov3 model for car detection and save path(trained_models).
 - Train Yaw Prediction Model from script car-yaw-prediction.ipynb and save the model in trained_models folder.
-- Use pos_predictor.joblib to predict the 3D co-ordinates. 
+- Use pos_predictor.joblib (can be downloaded from https://www.kaggle.com/alvaroibrain/car-position-estimation-full-pipeline/output?select=pos_predictor.joblib) to predict the 3D co-ordinates. 
 - Run Car Position Estimation - Full pipeline.ipynb providing proper path.
 
 ## Test Result
