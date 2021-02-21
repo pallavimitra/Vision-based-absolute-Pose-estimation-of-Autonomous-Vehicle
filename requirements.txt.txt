@@ -1,4 +1,0 @@
-tensorflow
-opencv-python
-joblib
-sklearn
