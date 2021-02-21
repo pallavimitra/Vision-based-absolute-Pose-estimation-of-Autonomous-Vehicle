@@ -39,7 +39,7 @@ The dataset can be accesible from the Kaggle Challenge - https://www.kaggle.com/
 ## Usage
 - Download yolov3 model for car detection and save path(trained_models).
 - Train Yaw Prediction Model from script car-yaw-prediction.ipynb and save the model in trained_models folder.
-- Use pos_predictor.joblib (in trained_models folder) to predict the 3D co-ordinates. 
+- Use pos_predictor.joblib to predict the 3D co-ordinates. 
 - Run Car Position Estimation - Full pipeline.ipynb providing proper path.
 
 ## Test Result
@@ -48,3 +48,9 @@ The estimated pose of the detected cars are as follows:
 <p align="center">
   <img src="images/download.png" />
 </p>
+
+## Reference
+- Peking University/Baidu - Autonomous Driving. Can you predict vehicle angle in different settings? Kaggle, 2019.
+- 3D Bounding Box Estimation Using Deep Learning and Geometry, Mousavian et al.
+- https://www.kaggle.com/alvaroibrain/car-position-estimation-full-pipeline/output
+
