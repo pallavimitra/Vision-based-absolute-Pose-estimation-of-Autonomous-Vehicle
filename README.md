@@ -50,7 +50,7 @@ The estimated pose of the detected cars are as follows:
 </p>
 
 ## Reference
-- Peking University/Baidu - Autonomous Driving. Can you predict vehicle angle in different settings? Kaggle, 2019.
+- Peking University/Baidu - Autonomous Driving. Can you predict vehicle angle in different settings? - https://www.kaggle.com/c/pku-autonomous-driving
 - 3D Bounding Box Estimation Using Deep Learning and Geometry, Mousavian et al.
 - https://www.kaggle.com/alvaroibrain/car-position-estimation-full-pipeline/output
 
